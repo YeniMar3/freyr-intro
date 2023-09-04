@@ -35,14 +35,17 @@ body {
     font-family: sans-serif;
 }
 
-/* #skills-list {
-    border: 4px dashed blue;
-    border-radius: 10px;
-} */
+ #skills-list {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+} 
 
 #skills-list li {
     border: 1px solid white;
     padding: 10px 20px;
+    width: 100px;
+    height: 75px;
     margin: 10px 4px 30px 15px;
     border-radius: 10px;
     font-family: sans-serif;
